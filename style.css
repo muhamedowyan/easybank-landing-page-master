@@ -27,7 +27,7 @@ ul li a {
     font-size: 18px;
 }
 
-#requestInvite {
+.request-invite {
     background-image: linear-gradient(to right,
             var(--Lime-Green),
             var(--Bright-Cyan));
@@ -225,7 +225,6 @@ footer .social-icons img {
 }
 
 footer .btn {
-    width: auto;
     /* Ensure the button width adjusts to its content */
 }
 
@@ -236,7 +235,7 @@ footer .btn {
     }
 
     nav ul,
-    nav #requestInvite,
+    nav .request-invite,
     img#mockups,
     img#intro {
         display: none !important;
