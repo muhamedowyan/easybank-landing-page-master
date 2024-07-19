@@ -30,27 +30,53 @@
 	<body class="bg-light">
 		<nav class="navbar navbar-expand-lg d-flex justify-content-between navbar-light bg-white">
 			<a href="#"><img src="images/logo.svg" alt=""></a>
-				<ul class="nav">
-					<li class="nav-item">
-						<a class="nav-link text-secondary" href="#">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link text-secondary" href="#">About</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link text-secondary" href="#">Contact</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link text-secondary" href="#">Blog</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link text-secondary" href="#">Careers</a>
-					</li>
-				</ul>
-				<button type="button" id="requestInvite" class="btn text-white px-4 py-2 rounded-pill">Request
-					Invite</button>
-					<img class="hamburger" src="images/icon-hamburger.svg" alt="">
+			<ul class="nav">
+				<li class="nav-item">
+					<a class="nav-link text-secondary" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-secondary" href="#">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-secondary" href="#">Contact</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-secondary" href="#">Blog</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-secondary" href="#">Careers</a>
+				</li>
+			</ul>
+			<button type="button" id="requestInvite" class="btn text-white px-4 py-2 rounded-pill">Request
+				Invite</button>
+			<img class="hamburger" data-bs-toggle="modal" data-bs-target="#exampleModal" src="images/icon-hamburger.svg" alt="">
 		</nav>
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-body">
+						<ul class="nav d-flex flex-column justify-content-between align-items-center">
+							<li class="nav-item">
+								<a class="nav-link text-secondary" href="#">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-secondary" href="#">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-secondary" href="#">Contact</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-secondary" href="#">Blog</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-secondary" href="#">Careers</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="landing">
 			<div class="left-side">
 				<div id="title" class="">Next generation digital banking</div>
@@ -64,7 +90,7 @@
 				<img id="mockups" src="images/image-mockups.png" alt="">
 				<img id="bg" src="images/bg-intro-mobile.svg" alt="">
 				<img id="mbMockups" src="images/image-mockups.png" alt="">
-				
+
 			</div>
 		</div>
 		<div class="features-section bg-light-subtle">
@@ -143,11 +169,11 @@
 				</div>
 			</div>
 		</div>
-		<footer class="d-flex flex-row justify-content-between">
-			<div class="lts d-flex flex-row justify-content-between">
+		<footer class="mb d-flex justify-content-between">
+			<div class="lts d-flex justify-content-between">
 				<div class="social d-flex flex-column justify-content-between">
 					<img src="images/logo.svg" alt="...">
-					<div class="social-icons d-flex flex-row justify-content-between">
+					<div class="social-icons d-flex">
 						<img src="images/icon-facebook.svg" alt="">
 						<img src="images/icon-youtube.svg" alt="">
 						<img src="images/icon-twitter.svg" alt="">
@@ -167,12 +193,13 @@
 				</ul>
 			</div>
 
-			<div class="rts d-flex flex-column justify-content-between h-100" dir="rtl">
-				<button type="button" id="requestInvite"  class="btn text-white px- py rounded-pill w-0 fs-6">Request
+			<div class="rts d-flex flex-column justify-content-between" dir="rtl">
+				<button type="button" id="requestInvite" class="btn text-white px-4 py-2 rounded-pill fs-6">Request
 					Invite</button>
 				<p>© Easybank. All Rights Reserved</p>
 			</div>
 		</footer>
+
 
 		<!-- 
 		
