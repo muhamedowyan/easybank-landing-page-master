@@ -223,11 +223,6 @@ footer .social-icons img {
     margin-right: 10px;
     /* Add margin for spacing between icons */
 }
-
-footer .btn {
-    /* Ensure the button width adjusts to its content */
-}
-
 @media screen and (max-width: 1200px) {
     body {
         display: flex;
@@ -257,7 +252,7 @@ footer .btn {
         align-items: center;
         padding: 20px;
         width: 100%;
-        margin-top: 440px;
+        margin-top: 500px;
     }
 
     .right-side {
